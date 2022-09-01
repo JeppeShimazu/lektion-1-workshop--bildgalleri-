@@ -1,0 +1,84 @@
+body {
+background-color: black;
+
+}
+
+.meny {
+place-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr
+
+}
+
+.gallerihund {
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px
+}
+
+.gallerihund img {
+width: 100%;
+
+}
+
+.gallerikatt {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px
+    }
+    
+    .gallerikatt img {
+    width: 100%;
+    
+  }
+
+
+  .galleridelfin {
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px
+    }
+    
+    .galleridelfin img {
+    width: 100%;
+    
+    }
+
+    .gallerifisk {
+        display:grid;
+        grid-template-columns: 75% 25%;
+        gap: 10px
+        }
+        
+        .gallerifisk img {
+        width: 100%;
+        
+        }
+
+h1 {
+font-size: 50px;
+color: blue;
+text-align: center;
+text-decoration: overline underline;
+}
+
+h2 {
+font-size: 20px;
+color: blue;
+text-align: center;
+
+}
+
+
+
+a {
+text-decoration: none;
+
+
+}
+
+a:hover {
+color: red;
+text-decoration: underline;
+
+}
